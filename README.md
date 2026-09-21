@@ -1,6 +1,6 @@
 # Competitive Programming Lab
 
-Organized collection of Competitive Programming Lab programs, structured topic-wise as per the course syllabus.
+Collection of C programs for Competitive Programming Lab..
 
 ## Student Details
 
