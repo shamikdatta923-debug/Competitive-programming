@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int n, i;
+    int arr[100];
+    int result = 0;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter array elements: ");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+
+    for (i = 0; i < n; i++)
+    {
+        result = result ^ arr[i];
+    }
+
+    printf("Single number = %d\n", result);
+
+    return 0;
+}
